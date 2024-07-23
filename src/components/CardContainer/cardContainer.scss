@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+}
+
+.colContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}

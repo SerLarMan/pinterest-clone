@@ -1,0 +1,14 @@
+.collectionCard {
+  margin: 0.5em 0;
+
+  .displayImage {
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    filter: brightness(60%);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

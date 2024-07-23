@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Helvetica Now Text Medium";
+  src: url("../resources/fonts/HelveticaNowText-Medium.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Now Text Medium";
+}
+
+.hidden {
+  display: none;
+}

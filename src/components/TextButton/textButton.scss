@@ -1,0 +1,16 @@
+.textButton {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  padding: 1em 1.5em;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.clickedTextButton {
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+}

@@ -1,0 +1,56 @@
+.iconButton {
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  color: #767676;
+  padding: 0.5em 0.75em;
+  position: relative;
+  display: inline-block;
+
+  .tooltiptext {
+    visibility: hidden;
+    background-color: #767676;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1em;
+    width: fit-content;
+    top: 1em;
+    right: 105%;
+    font-size: 0.75rem;
+    position: absolute;
+    z-index: 1;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent transparent #767676;
+    }
+  }
+
+  &:hover {
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+  }
+
+  &:hover .tooltiptext {
+    visibility: visible;
+  }
+}
+
+.clickedIconButton {
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    .iconButton {
+      display: none;
+    }
+  }
+}

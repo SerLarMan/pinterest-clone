@@ -1,0 +1,21 @@
+header {
+  padding: 2em 1em;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.divBrand {
+  padding: 1em 0.5em;
+
+  i:hover {
+    cursor: pointer;
+  }
+
+  &:hover {
+    background-color: lightgrey;
+    border-radius: 50px;
+  }
+}
